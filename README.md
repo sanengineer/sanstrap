@@ -20,7 +20,6 @@ Several quick start options are available:
 - [Download the latest release.](#)
 - Clone the repo: `git clone https://github.com/sanengineer/sanstrap.git`
 - Install with [npm](https://www.npmjs.com/): `npm install sanstrap`
-- Install with [yarn](https://yarnpkg.com/): `yarn add sanstrap@1.0.0`
 
 ## Status
 
