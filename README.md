@@ -24,8 +24,8 @@ Several quick start options are available:
 
 ## Status
 
-[![npm version](https://img.shields.io/npm/v/sanstrap)](#)
-[![CSS gzip size](https://img.badgesize.io/sanengineer/sanstrap/v1-dev/dist/css/sanstrap.min.css?compression=gzip&label=CSS%20gzip%20size)](#)
+[![npm version](https://img.shields.io/npm/v/sanstrap)](https://www.npmjs.com/package/sanstrap)
+[![CSS gzip size](https://img.badgesize.io/sanengineer/sanstrap/dist/css/sanstrap.min.css?compression=gzip&label=CSS%20gzip%20size)](https://github.com/sanengineer/sanstrap/blob/master/dist/css/sanstrap.min.css)
 
 ## CSS Struture Folder
 
