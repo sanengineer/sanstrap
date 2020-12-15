@@ -1,0 +1,31 @@
+{
+  "name": "sanstrap",
+  "version": "1.0.0",
+  "description": "styling css custom by sanengineer",
+  "scripts": {
+    "dist": "npm-run-all --parallel css",
+    "css": "npm-run-all css-compile css-minify",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/css/",
+    "css-minify": "npm-run-all --parallel css-minify-*",
+    "css-minify-main": "cleancss -O1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/sanstrap.min.css dist/css/sanstrap.css",
+    "watch": "npm-run-all --parallel watch-*",
+    "watch-css-main": "nodemon --watch scss/ --ext scss --exec \"npm-run-all css-compile \"",
+    "watch-css-dist": "nodemon --watch dist/css/ --ext css --ignore \"dist/css/*.rtl.*\""
+  },
+  "keywords": [
+    "css",
+    "bootstrap",
+    "sanstrap"
+  ],
+  "sass": "scss/sanstrap.scss",
+  "author": "sanengineer",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.3.0",
+    "nodemon": "^2.0.6",
+    "sass": "^1.30.0"
+  }
+}
