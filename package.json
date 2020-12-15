@@ -2,6 +2,11 @@
   "name": "sanstrap",
   "version": "1.0.0",
   "description": "styling css custom by sanengineer",
+  "homepage": "https://github.com/sanengineer/sanstrap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanengineer/sanstrap.git"
+  },
   "scripts": {
     "dist": "npm-run-all --parallel css",
     "css": "npm-run-all css-compile css-minify",
@@ -15,7 +20,8 @@
   "keywords": [
     "css",
     "bootstrap",
-    "sanstrap"
+    "sanstrap",
+    "css-framework"
   ],
   "sass": "scss/sanstrap.scss",
   "author": "sanengineer",
