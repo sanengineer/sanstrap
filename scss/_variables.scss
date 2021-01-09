@@ -7,6 +7,7 @@
 
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
+$gray-150: #f9f9f9 !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
@@ -22,6 +23,7 @@ $grays: () !default;
 $grays: map-merge(
   (
     "100": $gray-100,
+    "150": $gray-150,
     "200": $gray-200,
     "300": $gray-300,
     "400": $gray-400,
@@ -37,7 +39,8 @@ $grays: map-merge(
 $blue: #007bff !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
-$purple-900: #84419b !default;
+$purple-800: #84419b !default;
+$purple-900: #7f37a0 !default;
 $pink: #e83e8c !default;
 $red: #dc3545 !default;
 $orange: #fd7e14 !default;
@@ -70,7 +73,7 @@ $colors: map-merge(
 );
 
 $primary: $blue !default;
-$primary-rps: $purple-900 !default;
+$primary-purple-900: $purple-900 !default;
 $secondary: $gray-600 !default;
 $success: $green !default;
 $info: $cyan !default;
@@ -83,7 +86,7 @@ $theme-colors: () !default;
 $theme-colors: map-merge(
   (
     "primary": $primary,
-    "primary-rps": $primary-rps,
+    "purple": $primary-purple-900,
     "secondary": $secondary,
     "success": $success,
     "info": $info,
@@ -184,7 +187,7 @@ $body-color: $gray-900 !default;
 //
 // Style anchor elements.
 
-$link-color: theme-color("primary-rps") !default;
+$link-color: theme-color("purple") !default;
 $link-decoration: none !default;
 $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: underline !default;
