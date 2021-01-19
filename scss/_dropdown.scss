@@ -22,7 +22,8 @@
   display: none; // none by default, but block on "open" of the menu
   float: left;
   min-width: $dropdown-min-width;
-  padding: $dropdown-padding-y 0;
+  padding: 0 0;
+  box-shadow: 13px 6px 16px 0px rgb(204 108 222 / 28%);
   margin: $dropdown-spacer 0 0; // override default ul
   @include font-size($dropdown-font-size);
   color: $dropdown-color;
@@ -31,7 +32,7 @@
   background-color: $dropdown-bg;
   background-clip: padding-box;
   border: $dropdown-border-width solid $dropdown-border-color;
-  @include border-radius($dropdown-border-radius);
+  @include border-radius($dropdown-border-no-radius);
   @include box-shadow($dropdown-box-shadow);
 }
 

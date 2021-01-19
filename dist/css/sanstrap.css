@@ -3040,7 +3040,8 @@ input[type=button].btn-block {
   display: none;
   float: left;
   min-width: 10rem;
-  padding: 0.5rem 0;
+  padding: 0 0;
+  box-shadow: 13px 6px 16px 0px rgba(204, 108, 222, 0.28);
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #212529;
@@ -3049,7 +3050,7 @@ input[type=button].btn-block {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  border-radius: 0rem;
 }
 
 .dropdown-menu-left {
